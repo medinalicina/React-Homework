@@ -1,0 +1,76 @@
+
+/* .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+   */
+  .footer {
+    background-color: #000; /* Postavlja crnu pozadinu */
+    color: #fff; /* Postavlja boju teksta na belu */
+    padding: 30px; /* Dodaje razmak unutar footera */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between; /* Raspored sadržaja levo-desno */
+    flex-wrap: wrap; /* Omogućava da se sadržaj prelazi u novi red ako je previše */
+  }
+  
+  .footer-section {
+    flex: 1; /* Deli prostor ravnomerno između sekcija */
+    max-width: 40%; /* Postavlja maksimalnu širinu sekcije */
+    margin-bottom: 20px; /* Dodaje razmak između sekcija */
+  }
+  
+  h3 {
+    font-size: 1.5rem; /* Prilagodi veličinu naslova prema potrebi */
+  }
+  
+  ul {
+    list-style: none; /* Uklanja tačkice ispred stavki liste */
+    padding: 0; /* Uklanja unutarnji razmak za listu */
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px; /* Dodaje razmak između stavki liste */
+  }
+  
+  .footer-bottom {
+    text-align: center; /* Centrira tekst na dnu footera */
+    padding-top: 20px; /* Dodaje razmak iznad teksta na dnu */
+  }
+  
+
+  
